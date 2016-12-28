@@ -1,0 +1,241 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B0C4D370-9330-46B8-8DB0-D1A7E8F2FCF4}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Hocvathi_home</RootNamespace>
+    <AssemblyName>Hocvathi_home</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Hocvathi_blog_hoc_baihoc.aspx" />
+    <Content Include="Hocvathi_blog_hoc_baihoc.css" />
+    <Content Include="Hocvathi_dangky.aspx" />
+    <Content Include="Hocvathi_dangky.css" />
+    <Content Include="Hocvathi_dangnhap.aspx" />
+    <Content Include="Hocvathi_dangnhap.css" />
+    <Content Include="Hocvathi_gioithieu.aspx" />
+    <Content Include="Hocvathi_gioithieu.css" />
+    <Content Include="Hocvathi_gopy.aspx" />
+    <Content Include="Hocvathi_gopy.css" />
+    <Content Include="Hocvathi_tranghoctructuyen.aspx" />
+    <Content Include="Hocvathi_tranghoctructuyen.css" />
+    <Content Include="Homepage.aspx" />
+    <Content Include="Images\282111_426703717366457_331795945_n.jpg" />
+    <Content Include="Images\8.png" />
+    <Content Include="Images\8180.jpg" />
+    <Content Include="Images\anh_1.png" />
+    <Content Include="Images\anh_2.png" />
+    <Content Include="Images\anh_3.png" />
+    <Content Include="Images\background1.jpg" />
+    <Content Include="Images\dangkyngay.png" />
+    <Content Include="Images\daotaotructuyen.png" />
+    <Content Include="Images\EPU front.jpg" />
+    <Content Include="Images\EPU.JPG" />
+    <Content Include="Images\epub-education-meet-edupub-r100-e1456748169698.jpg" />
+    <Content Include="Images\ezgifesize.gif" />
+    <Content Include="Images\file_goc_777715_1.png" />
+    <Content Include="Images\footer.png" />
+    <Content Include="Images\GTD1502.JPG" />
+    <Content Include="Images\hoctructuyen.jpg" />
+    <Content Include="Images\ic_back_form.png" />
+    <Content Include="Images\ic_back_signup.png" />
+    <Content Include="Images\ic_button.png" />
+    <Content Include="Images\ic_button_2.png" />
+    <Content Include="Images\ic_end_test.png" />
+    <Content Include="Images\ic_info1.png" />
+    <Content Include="Images\ic_info2.png" />
+    <Content Include="Images\ic_info3.png" />
+    <Content Include="Images\ic_info4.png" />
+    <Content Include="Images\ic_khungthi.png" />
+    <Content Include="Images\ic_list_button.png" />
+    <Content Include="Images\ic_login.png" />
+    <Content Include="Images\ic_logo2.png" />
+    <Content Include="Images\ic_logo_epu.jpg" />
+    <Content Include="Images\ic_time.png" />
+    <Content Include="Images\khungthoigian.png" />
+    <Content Include="Images\kinh tế 1.jpg" />
+    <Content Include="Images\kinh tế 2.jpg" />
+    <Content Include="Images\kinh tế 3.jpg" />
+    <Content Include="Images\kinh tế 4.jpg" />
+    <Content Include="Images\Kiến trúc máy tính 1.png" />
+    <Content Include="Images\Kiến trúc máy tính 2.png" />
+    <Content Include="Images\Kiến trúc máy tính 3.png" />
+    <Content Include="Images\Kiến trúc máy tính 4.png" />
+    <Content Include="Images\Layer 26.png" />
+    <Content Include="Images\learnbetter-affordable-logo-design.jpg" />
+    <Content Include="Images\learnbetter-logo.jpg" />
+    <Content Include="Images\logo - Copy.png" />
+    <Content Include="Images\logo.png" />
+    <Content Include="Images\logo_finger.png" />
+    <Content Include="Images\mạng máy tính 1.jpg" />
+    <Content Include="Images\nut chuyen tiep.png" />
+    <Content Include="Images\nut quay lai.png" />
+    <Content Include="Images\quản trị doanh nghiệp 1.jpg" />
+    <Content Include="Images\quản trị doanh nghiệp 2.jpg" />
+    <Content Include="Images\Screenshot %2854%29.png" />
+    <Content Include="Images\Screenshot %2855%29.png" />
+    <Content Include="Images\Screenshot %2858%29.png" />
+    <Content Include="Images\Screenshot %2859%29.png" />
+    <Content Include="Images\Sh.png" />
+    <Content Include="Images\Shape 3 copy 8.png" />
+    <Content Include="Images\Shape14.png" />
+    <Content Include="Images\slide1.png" />
+    <Content Include="Images\thiet-lap-mang-may-tinh.jpg" />
+    <Content Include="Images\title.png" />
+    <Content Include="Images\tiếng anh 1.jpg" />
+    <Content Include="Images\tiếng anh 2.jpg" />
+    <Content Include="Images\tiếng anh 3.jpg" />
+    <Content Include="Images\truong dhdlmb 1.gif" />
+    <Content Include="Images\Untitled-1.png" />
+    <Content Include="Images\Untitled-2.png" />
+    <Content Include="Images\Untitled-3.png" />
+    <Content Include="Images\Untitled-4.png" />
+    <Content Include="Images\wallpaper-web.jpg" />
+    <Content Include="StyleSheet1.css" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Hocvathi_blog_hoc_baihoc.aspx.cs">
+      <DependentUpon>Hocvathi_blog_hoc_baihoc.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Hocvathi_blog_hoc_baihoc.aspx.designer.cs">
+      <DependentUpon>Hocvathi_blog_hoc_baihoc.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Hocvathi_dangky.aspx.cs">
+      <DependentUpon>Hocvathi_dangky.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Hocvathi_dangky.aspx.designer.cs">
+      <DependentUpon>Hocvathi_dangky.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Hocvathi_dangnhap.aspx.cs">
+      <DependentUpon>Hocvathi_dangnhap.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Hocvathi_dangnhap.aspx.designer.cs">
+      <DependentUpon>Hocvathi_dangnhap.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Hocvathi_gioithieu.aspx.cs">
+      <DependentUpon>Hocvathi_gioithieu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Hocvathi_gioithieu.aspx.designer.cs">
+      <DependentUpon>Hocvathi_gioithieu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Hocvathi_gopy.aspx.cs">
+      <DependentUpon>Hocvathi_gopy.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Hocvathi_gopy.aspx.designer.cs">
+      <DependentUpon>Hocvathi_gopy.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Hocvathi_tranghoctructuyen.aspx.cs">
+      <DependentUpon>Hocvathi_tranghoctructuyen.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Hocvathi_tranghoctructuyen.aspx.designer.cs">
+      <DependentUpon>Hocvathi_tranghoctructuyen.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Homepage.aspx.cs">
+      <DependentUpon>Homepage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Homepage.aspx.designer.cs">
+      <DependentUpon>Homepage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>29568</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:29568/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
